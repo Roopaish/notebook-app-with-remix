@@ -1,4 +1,3 @@
-import bounceStyles from "./styles/app.css";
 import styles from "./styles/styles.css";
 
 import {
@@ -20,7 +19,7 @@ export const meta: MetaFunction = () => ({
 });
 
 export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: bounceStyles },
+  { rel: "stylesheet", href: "https://bouncecss.bookie0.repl.co/bounce.css" },
   { rel: "stylesheet", href: styles },
 ];
 
