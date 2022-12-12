@@ -1,0 +1,40 @@
+.notes {
+  font-size: 12px;
+  color: #999;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  justify-content: center;
+  grid-gap: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.note {
+  text-align: left;
+  background: var(--yellow-light);
+  color: black;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  transition: 0.3s ease-in-out all;
+}
+
+.note:hover {
+  background: var(--yellow-normal);
+}
+
+.note p {
+  text-align: justify;
+}
+
+.date {
+  border-bottom: 1px solid var(--dark-gray);
+  width: 100%;
+  text-align: right !important;
+}
